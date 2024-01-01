@@ -1,0 +1,343 @@
+/* --------------navbar------------ */
+.logo img {
+  height: 70px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: +1;
+
+}
+
+.nav1 {
+  margin-left: 250px;
+}
+
+.nav-item {
+  margin-left: 60PX;
+}
+
+
+
+
+
+
+
+/* ------------slider-------------- */
+
+.Slides {
+  height: 640px;
+  width: auto;
+  /* border: 2px solid lightgoldenrodyellow; */
+  
+
+}
+
+.mySlides img {
+  height: 640px;
+  width: auto;
+}
+
+/* .mySlides:hover img {
+  height: 650px;
+  width: auto;
+  z-index: -5;
+  
+} */
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  /* height: 300px; */
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  /* border-radius: 0 3px 3px 0; */
+  user-select: none;
+  -webkit-user-select: none;
+  /* opacity: -1; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 3px;
+  z-index: inherit;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: whitesmoke;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.row{
+  /* margin-left: 10px; */
+}
+
+
+.single-product-item img{
+  height: 500px;
+  width: 400px;
+}
+.p-status{
+  margin-left: 150px;
+}
+.product-text{
+  margin-left: 100px;
+}
+.cart{
+  z-index:-3;
+}
+.btn{
+  margin-left: 50px;
+}
+
+
+/*-----------footer------------------  */
+
+
+
+.footer-section {
+	background: #262626;
+	padding-bottom: 10px;
+}
+
+.newslatter-form {
+	margin-bottom: 90px;
+}
+
+.newslatter-form form {
+	position: relative;
+}
+
+.newslatter-form form input {
+	width: 100%;
+	border: 2px solid #454747;
+	border-radius: 50px;
+	height: 53px;
+	background: transparent;
+	color: #535353;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 600;
+	padding-left: 30px;
+	position: relative;
+}
+
+.newslatter-form form button {
+	width: 310px;
+	height: 53px;
+	background: #B0BCC2;
+	border: 2px solid #B0BCC2;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 50px;
+	position: absolute;
+	right: 0;
+}
+
+.footer-widget {
+	margin-bottom: 40px;
+}
+
+.footer-widget .single-footer-widget {
+	margin-bottom: 30px;
+}
+
+.footer-widget .single-footer-widget h4 {
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 44px;
+}
+
+.footer-widget .single-footer-widget ul li {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	list-style: none;
+	line-height: 36px;
+	opacity: 0.5;
+}
+
+.social-links-warp {
+	background: #222121;
+	padding: 46px 0;
+}
+
+.social-links a {
+	margin-right: 88px;
+	display: inline-block;
+}
+
+.social-links a:last-child {
+	margin-right: 0;
+}
+
+.social-links a i {
+	font-size: 30px;
+	color: #d7d7d7;
+	float: left;
+	margin-right: 19px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a span {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #9f9fa0;
+	padding-top: 10px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a.instagram:hover i {
+	color: #2F5D84;
+}
+
+.social-links a.google-plus:hover i {
+	color: #E04B37;
+}
+
+.social-links a.twitter:hover i {
+	color: #5abed6;
+}
+
+.social-links a.pinterest:hover i {
+	color: #CD212D;
+}
+
+.social-links a.facebook:hover i {
+	color: #39599F;
+}
+
+.social-links a.twitter:hover i {
+	color: #5abed6;
+}
+
+.social-links a.youtube:hover i {
+	color: #D12227;
+}
+
+.social-links a.tumblr:hover i {
+	color: #37475E;
+}
+
+.social-links a:hover span {
+	color: #fff;
+}
+
+
+.footer{
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------footer------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
